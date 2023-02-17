@@ -1,5 +1,28 @@
 const Home = () => {
-  let toRender = <div>This is home page</div>;
+  let toRender = (
+    <div>
+      <div>This is home page</div>;<div>This is home page</div>;
+      <div>This is home page</div>;<div>This is home page</div>;
+      <div>This is home page</div>;<div>This is home page</div>;
+      <div>This is home page</div>;<div>This is home page</div>;
+      <div>This is home page</div>;<div>This is home page</div>;
+      <div>This is home page</div>;<div>This is home page</div>;
+      <div>This is home page</div>;<div>This is home page</div>;
+      <div>This is home page</div>;<div>This is home page</div>;
+      <div>This is home page</div>;<div>This is home page</div>;
+      <div>This is home page</div>;<div>This is home page</div>;
+      <div>This is home page</div>;<div>This is home page</div>;
+      <div>This is home page</div>;<div>This is home page</div>;
+      <div>This is home page</div>;<div>This is home page</div>;
+      <div>This is home page</div>;<div>This is home page</div>;
+      <div>This is home page</div>;<div>This is home page</div>;
+      <div>This is home page</div>;<div>This is home page</div>;
+      <div>This is home page</div>;<div>This is home page</div>;
+      <div>This is home page</div>;<div>This is home page</div>;
+      <div>This is home page</div>;<div>This is home page</div>;
+      <div>This is home page</div>;<div>This is home page</div>;
+    </div>
+  );
   return toRender;
 };
 
