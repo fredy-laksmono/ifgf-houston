@@ -1,4 +1,5 @@
 import "../App.css";
+import AboutUsShort from "../components/AboutUsShort";
 import Slogan from "../components/Slogan";
 import WelcomeHome from "../components/WelcomeHome";
 
@@ -7,17 +8,7 @@ const Home = () => {
     <div>
       <WelcomeHome />
       <Slogan />
-      <div>
-        <iframe
-          title="Instagram Feeds"
-          aria-label="Instagram Feeds"
-          scrolling="no"
-          src=""
-        ></iframe>
-      </div>
-      <div>This is home page</div>;<div>This is home page</div>;
-      <div>This is home page</div>;<div>This is home page</div>;
-      <div>This is home page</div>;<div>This is home page</div>;
+      <AboutUsShort />
     </div>
   );
   return toRender;
