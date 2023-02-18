@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+.people {
+  position: relative;
+  margin: 50px 0px -64px calc((100% - 980px)*0.5);
+  left: 100px;
+  grid-area: 1/1/2/2;
+  justify-self: start;
+  align-self: start;
+}
+
+.connect {
+  position: relative;
+  margin: 0px 0px 45px calc((100% - 980px)*0.5);
+  left: 600px;
+  grid-area: 2/1/3/2;
+  justify-self: start;
+  align-self: start;
+}
+
+.people-connect-line {
+  position: relative;
+  margin: 18px 0px 10px calc((100% - 980px)*0.5);
+  left:500px;
+  grid-area: 2/1/3/2;
+  justify-self: start;
+  align-self: start;
+}
+
