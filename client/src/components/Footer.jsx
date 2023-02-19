@@ -5,7 +5,7 @@ const Footer = () => {
                 IFGF HOUSTON
             </div>
             <div className=" col-start-1 text-left font-thin text-lg">
-                ALIVE IN CLARITY
+                ALIVE IN CHARACTER
             </div>
             <div className=" row-start-3 col-start-1 text-left font-thin text-base self-center">
                 Phone: +1 (281)922-4343
