@@ -1,3 +1,7 @@
+import {IconButton} from '@mui/material';
+import FacebookIcon from '@mui/icons-material/Facebook';
+
+
 const Footer = () => {
     return (
         <footer className=" grid grid-cols-4 px-2 py-4">
@@ -15,6 +19,12 @@ const Footer = () => {
             </div>
             <div className=" row-start-3 col-start-4 text-right font-thin text-base self-center">
                 ©2023 by IFGF Houston
+            </div>
+            <div className=" row-start-4 col-start-2 col-span-2 self-center">
+                <IconButton href="https://www.facebook.com/IFGFHouston" target="_blank" rel="noreferrer">
+                    <FacebookIcon />
+                </IconButton>
+                <FacebookIcon />
             </div>
             
             <p></p>
