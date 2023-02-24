@@ -1,4 +1,4 @@
-import IFGFHouston from "../assets/IFGFHouston-1.jpeg";
+import IFGFHouston from "../../assets/IFGFHouston-1.jpeg";
 
 const WelcomeHome = () => {
     return (

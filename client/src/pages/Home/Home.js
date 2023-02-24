@@ -1,7 +1,7 @@
-import "../App.css";
-import AboutUsShort from "../components/AboutUsShort";
-import Slogan from "../components/Slogan";
-import WelcomeHome from "../components/WelcomeHome";
+import "../../App.css";
+import AboutUsShort from "./AboutUsShort";
+import Slogan from "./Slogan";
+import WelcomeHome from "./WelcomeHome";
 
 const Home = () => {
   let toRender = (
