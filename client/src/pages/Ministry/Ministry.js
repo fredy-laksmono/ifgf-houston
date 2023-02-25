@@ -5,7 +5,7 @@ import { Route, Routes } from "react-router-dom";
 
 const Ministry = () => {
   return (
-    <div className=" grid grid-cols-7 ">
+    <div className=" grid grid-cols-7 bg-white text-black ">
       <div className=" col-start-1 col-span-1 row-start-1 row-span-full ">
         <SideBar />
       </div>
