@@ -1,8 +1,8 @@
 const InfoPanel = ({imagePath, imageAlt, title, body, style}) => {
     return (
-    <div>
+    <div className=" py-3 ">
         {imagePath ? <img src={imagePath} alt={imageAlt}/> : null}
-        <h2>{title}</h2>
+        <h2 className=" text-2xl font-bold">{title}</h2>
         <p>{body}</p>
     </div>
     )
