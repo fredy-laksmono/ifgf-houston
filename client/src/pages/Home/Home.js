@@ -3,6 +3,8 @@ import AboutUsShort from "./AboutUsShort";
 import Slogan from "./Slogan";
 import WelcomeHome from "./WelcomeHome";
 import InfoPanel from "./InfoPanel";
+import ifgfHoustonBuildingImage from "../../assets/ifgfHoustonBuilding.png";
+import careGroupImage from "../../assets/CareGroup.jpeg";
 
 const Home = () => {
   const ifgfHouston = (
@@ -11,6 +13,7 @@ const Home = () => {
       Dr, Houston, TX 77073{" "}
     </p>
   );
+
   const careGroup = (
     <p>
       House City (Youth) <br /> Sunday - 2:00 PM to 3:00 PM <br /> <br /> Higher
@@ -34,8 +37,16 @@ const Home = () => {
     <div>
       <WelcomeHome />
       <Slogan />
-      <InfoPanel title="IFGF Houston" body={ifgfHouston} />
-      <InfoPanel title="Care Group" body={careGroup} />
+      <InfoPanel
+        imagePath={ifgfHoustonBuildingImage}
+        title="IFGF Houston"
+        body={ifgfHouston}
+      />
+      <InfoPanel
+        imagePath={careGroupImage}
+        title="Care Group"
+        body={careGroup}
+      />
       <InfoPanel title="iGrow" body={iGrow} />
       <InfoPanel title="Prayer Meeting" body={prayerMeeting} />
       <AboutUsShort />
