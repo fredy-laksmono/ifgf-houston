@@ -7,7 +7,6 @@ const NewUser = ( {setNewUserMode}) => {
     const noteRef = useRef()
 
     const onSubmit = () => {
-        // Send user form to backend
         let formData = {
             name: nameRef.current.value,
             email: emailRef.current.value,
@@ -15,6 +14,7 @@ const NewUser = ( {setNewUserMode}) => {
             note: noteRef.current.value
         }
         console.log(formData)
+        // Send user form to backend
         setNewUserMode(false)
     }
     return (
