@@ -34,7 +34,7 @@ const Home = () => {
   );
 
   let toRender = (
-    <div>
+    <div className=" grid ">
       <WelcomeHome />
       <Slogan />
       <InfoPanel
