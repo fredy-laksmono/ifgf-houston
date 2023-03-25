@@ -4,7 +4,7 @@ import Slideshow from "../../components/Slideshow";
 import AliveInCharacter from "../../assets/AliveInCharacter.png";
 
 const WelcomeHome = () => {
-    const images = [IFGFHouston, IFGFMain, AliveInCharacter]
+    const images = [IFGFMain, AliveInCharacter]
     return (
         <Slideshow images={images} />
         // <section className=" bg-slate-400 relative">
