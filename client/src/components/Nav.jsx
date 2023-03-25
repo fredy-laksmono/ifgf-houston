@@ -17,19 +17,14 @@ const Nav = ({authenticated, user}) => {
     let authenticatedOptions
 
     const menuShow = (
-        <section id="mobile-menu" className=" lg:hidden absolute z-30 top-0 right-0 bg-black bg-opacity-70 w-2/5 text-2xl flex flex-col justify-center">
+        <section id="mobile-menu" className=" lg:hidden absolute z-30 top-0 right-0 bg-black bg-opacity-70 w-60 text-2xl flex flex-col justify-center rounded-md">
                     <button className=" text-6xl self-end px-6" onClick={closeMenu}>
                         &times;
                     </button>
                     <div className=" flex flex-col h-auto py-4 items-center" aria-label="mobile">
                         <Link className=' w-full text-center py-1 hover:opacity-90' to="/" style={{textDecoration: 'none'}}>HOME</Link>
-                        <Link className='w-full text-center py-1 hover:opacity-90' to="/" style={{textDecoration: 'none'}}>ABOUT US</Link>
-                        <Link className='w-full text-center py-1 hover:opacity-90' to="/" style={{textDecoration: 'none'}}>PASTORAL CARE</Link>
-                        <Link className='w-full text-center py-1 hover:opacity-90' to="/" style={{textDecoration: 'none'}}>GROW</Link>
-                        <Link className='w-full text-center py-1 hover:opacity-90' to="/" style={{textDecoration: 'none'}}>LOCATION</Link>
-                        <Link className='w-full text-center py-1 hover:opacity-90' to="/" style={{textDecoration: 'none'}}>MISSION</Link>
-                        <Link className='w-full text-center py-1 hover:opacity-90' to="/" style={{textDecoration: 'none'}}>EVENT</Link>
-                        <Link className='w-full text-center py-1 hover:opacity-90' to="/" style={{textDecoration: 'none'}}>GIVING</Link>
+                        <Link className='w-full text-center py-1 hover:opacity-90' to="/" style={{textDecoration: 'none'}}>OUR VISION</Link>
+                        <Link className='w-full text-center py-1 hover:opacity-90' to="/aboutus" style={{textDecoration: 'none'}}>ABOUT US</Link>
                     </div>
                 </section>
     )
@@ -49,13 +44,8 @@ const Nav = ({authenticated, user}) => {
                 
                 <div className=" hidden lg:flex col-span-7 gap-x-8 self-center ">
                     <Link className='margin-10' to="/" style={{textDecoration: 'none'}}>HOME</Link>
-                    <Link className='margin-10' to="/" style={{textDecoration: 'none'}}>ABOUT US</Link>
-                    <Link className='margin-10' to="/" style={{textDecoration: 'none'}}>PASTORAL CARE</Link>
-                    <Link className='margin-10' to="/" style={{textDecoration: 'none'}}>GROW</Link>
-                    <Link className='margin-10' to="/" style={{textDecoration: 'none'}}>LOCATION</Link>
-                    <Link className='margin-10' to="/" style={{textDecoration: 'none'}}>MISSION</Link>
-                    <Link className='margin-10' to="/" style={{textDecoration: 'none'}}>EVENT</Link>
-                    <Link className='margin-10' to="/" style={{textDecoration: 'none'}}>GIVING</Link>
+                    <Link className='margin-10' to="/" style={{textDecoration: 'none'}}>OUR VISION</Link>
+                    <Link className='margin-10' to="/aboutus" style={{textDecoration: 'none'}}>ABOUT US</Link>
                 </div>    
 
             </nav>
