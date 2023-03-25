@@ -12,13 +12,13 @@ const Slideshow = ({ images, interval = 5000 }) => {
   }, [currentSlide, images.length, interval]);
 
   return (
-    <div className="relative h-60">
+    <div className="relative h-52 overflow-hidden">
       {images.map((image, index) => (
             <img
                 key={index}
                 src={image}
                 alt={`Slideshow image ${index}`}
-                className={`absolute top-0 left-0 w-full h-full object-cover transition-opacity duration-1000 ${
+                className={`absolute top-0 left-0 w-full transition-opacity duration-1000 ${
                     index === currentSlide ? 'opacity-100' : 'opacity-0'
                 }`}
                 />

@@ -1,9 +1,10 @@
 import IFGFHouston from "../../assets/IFGFHouston-1.jpeg";
 import IFGFMain from "../../assets/Main.jpeg";
 import Slideshow from "../../components/Slideshow";
+import AliveInCharacter from "../../assets/AliveInCharacter.png";
 
 const WelcomeHome = () => {
-    const images = [IFGFHouston, IFGFMain]
+    const images = [IFGFHouston, IFGFMain, AliveInCharacter]
     return (
         <Slideshow images={images} />
         // <section className=" bg-slate-400 relative">

@@ -1,6 +1,6 @@
 const Slogan = () => {
     return (
-        <div>
+        <div className=" ">
             <section className=" bg-white text-black static flex flex-col md:hidden">
                 
                 <h1 className=" font-bold text-4xl pt-4">PEOPLE IS</h1>
