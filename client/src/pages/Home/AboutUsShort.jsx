@@ -8,7 +8,7 @@ const AboutUsShort = () => {
     }
     return (
     <section>
-        <div className=" flex flex-col lg:grid grid-cols-2">
+        <div className=" flex flex-col lg:grid grid-cols-2 pt-4">
             <img src="https://static.wixstatic.com/media/2422f3_1800eed602344c9a85fc648e99811b98~mv2.jpg/v1/fill/w_711,h_740,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/2422f3_1800eed602344c9a85fc648e99811b98~mv2.jpg" alt="IFGFCommunity.png" />
             <div className=" flex flex-col p-12  bg-white text-black place-content-between">
                 <div></div>

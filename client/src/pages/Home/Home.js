@@ -17,7 +17,8 @@ const Home = () => {
   const careGroup = (
     <p>
       House City (Youth) <br /> Sunday - 2:00 PM to 3:00 PM <br /> <br /> Higher
-      Ground (Young Adult) <br /> Friday - 7:00 PM to 9:00 PM
+      Ground (Young Adult) <br /> Friday - 7:00 PM to 9:00 PM <br /> <br />{" "}
+      Family Care Group (Family) <br /> Contact us for more information
     </p>
   );
 
