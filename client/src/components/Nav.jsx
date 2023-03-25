@@ -22,9 +22,9 @@ const Nav = ({authenticated, user}) => {
                         &times;
                     </button>
                     <div className=" flex flex-col h-auto py-4 items-center" aria-label="mobile">
-                        <Link className=' w-full text-center py-1 hover:opacity-90' to="/" style={{textDecoration: 'none'}}>HOME</Link>
-                        <Link className='w-full text-center py-1 hover:opacity-90' to="/" style={{textDecoration: 'none'}}>OUR VISION</Link>
-                        <Link className='w-full text-center py-1 hover:opacity-90' to="/aboutus" style={{textDecoration: 'none'}}>ABOUT US</Link>
+                        <Link className=' w-full text-center py-1 hover:opacity-90' to="/" onClick={closeMenu} style={{textDecoration: 'none'}}>HOME</Link>
+                        <Link className='w-full text-center py-1 hover:opacity-90' to="/" onClick={closeMenu}  style={{textDecoration: 'none'}}>OUR VISION</Link>
+                        <Link className='w-full text-center py-1 hover:opacity-90' to="/aboutus" onClick={closeMenu}  style={{textDecoration: 'none'}}>ABOUT US</Link>
                     </div>
                 </section>
     )
