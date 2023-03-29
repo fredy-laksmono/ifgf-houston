@@ -1,8 +1,10 @@
 const AboutUs = () => {
   return (
     <div className="bg-gray-50 py-8">
-      <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl font-bold text-gray-900">About Us</h2>
+      <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 text-justify">
+        <h2 className="text-3xl font-bold text-gray-900 text-center">
+          About Us
+        </h2>
         <div className="mt-6 text-black ">
           <p>{`It began with a fellowship in the 80's with one Indonesian university student, Jimmy Oentoro, in the West Coast of USA that eventually gave birth to the IFGF church. In 1987, Jimmy Oentoro was ordained by Rev. Dick Iverson at Bible Temple Church and the IFGF fellowship became the “IFGF Church” with churches in San Francisco, Fresno, Oklahoma, and Los Angeles. The movement spread into more cities in USA and IFGF church in Houston was one of the fruits of this movement in the 1990s.`}</p>
           <br />
