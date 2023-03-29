@@ -124,7 +124,7 @@ const Vision = () => {
   return (
     <div className=" py-4 px-8 bg-white text-black">
       <h1 className=" text-3xl mb-5">Our Vision</h1>
-      <div className=" grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div className=" grid grid-cols-1 md:px-20 lg:px-0 xl:pr-14 xl:pl-10 lg:grid-cols-2 gap-4">
         <ImageText imgPath={prayerImage} text={prayer} />
         <ImageText imgPath={powerImage} text={power} />
         <ImageText imgPath={worshipImage} text={worship} />
