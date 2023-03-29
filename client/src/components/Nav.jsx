@@ -23,7 +23,7 @@ const Nav = ({authenticated, user}) => {
                     </button>
                     <div className=" flex flex-col h-auto py-4 items-center" aria-label="mobile">
                         <Link className=' w-full text-center py-1 hover:opacity-90' to="/" onClick={closeMenu} style={{textDecoration: 'none'}}>HOME</Link>
-                        <Link className='w-full text-center py-1 hover:opacity-90' to="/" onClick={closeMenu}  style={{textDecoration: 'none'}}>OUR VISION</Link>
+                        <Link className='w-full text-center py-1 hover:opacity-90' to="/vision" onClick={closeMenu}  style={{textDecoration: 'none'}}>OUR VISION</Link>
                         <Link className='w-full text-center py-1 hover:opacity-90' to="/aboutus" onClick={closeMenu}  style={{textDecoration: 'none'}}>ABOUT US</Link>
                     </div>
                 </section>
@@ -44,7 +44,7 @@ const Nav = ({authenticated, user}) => {
                 
                 <div className=" hidden lg:flex col-span-7 gap-x-8 self-center ">
                     <Link className='margin-10' to="/" style={{textDecoration: 'none'}}>HOME</Link>
-                    <Link className='margin-10' to="/" style={{textDecoration: 'none'}}>OUR VISION</Link>
+                    <Link className='margin-10' to="/vision" style={{textDecoration: 'none'}}>OUR VISION</Link>
                     <Link className='margin-10' to="/aboutus" style={{textDecoration: 'none'}}>ABOUT US</Link>
                 </div>    
 
