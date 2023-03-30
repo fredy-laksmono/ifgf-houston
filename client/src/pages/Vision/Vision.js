@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import ImageText from "../../components/ImageText";
 import prayerImage from "../../assets/vision/HouseOfPrayer.jpeg";
 import powerImage from "../../assets/vision/HouseOfPower.jpeg";
@@ -11,6 +12,9 @@ import excellenceImage from "../../assets/vision/HouseOfExcellence.jpeg";
 import leadershipImage from "../../assets/vision/HouseOfLeadership.jpeg";
 
 const Vision = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const prayer = {
     title: "House of Prayer",
     description: (

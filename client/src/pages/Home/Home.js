@@ -1,4 +1,5 @@
 import "../../App.css";
+import { useEffect } from "react";
 import AboutUsShort from "./AboutUsShort";
 import Slogan from "./Slogan";
 import WelcomeHome from "./WelcomeHome";
@@ -7,6 +8,9 @@ import ifgfHoustonBuildingImage from "../../assets/ifgfHoustonBuilding.png";
 import careGroupImage from "../../assets/CareGroup.jpeg";
 
 const Home = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const ifgfHouston = (
     <p>
       Onsite Service <br /> Sunday - 11:00 AM to 12:30 PM <br /> 6455 Wilcrest

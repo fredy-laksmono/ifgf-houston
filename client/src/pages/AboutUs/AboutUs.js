@@ -1,4 +1,9 @@
+import { useEffect } from "react";
+
 const AboutUs = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="bg-gray-50 py-8">
       <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 text-justify">
