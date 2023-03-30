@@ -1,5 +1,6 @@
 import "../../App.css";
 import { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import AboutUsShort from "./AboutUsShort";
 import Slogan from "./Slogan";
 import WelcomeHome from "./WelcomeHome";
@@ -11,10 +12,23 @@ const Home = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+  const navigate = useNavigate();
+
+  const handleDirection = () => {
+    window.location.href =
+      "https://www.google.com/maps/search/?api=1&query=IFGF+6455+Wilcrest+Dr,+Houston,+TX+77072";
+  };
+
   const ifgfHouston = (
     <p>
       Onsite Service <br /> Sunday - 11:00 AM to 12:30 PM <br /> 6455 Wilcrest
-      Dr, Houston, TX 77072{" "}
+      Dr, Houston, TX 77072 <br />
+      <button
+        className=" bg-white text-black self-center lg:self-start text-base mt-4 py-1 rounded-3xl w-40"
+        onClick={handleDirection}
+      >
+        GET DIRECTION
+      </button>
     </p>
   );
 
