@@ -8,7 +8,7 @@ const Footer = () => {
     let sosmedSection
     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
         sosmedSection = <div>
-            <IconButton color='inherit' href="fb://www.facebook.com/IFGFHouston" target="_blank" rel="noreferrer">
+            <IconButton color='inherit' href="fb://page/?id=123349201038361" >
                 <FacebookIcon />
             </IconButton>
             <IconButton color='inherit' href="https://www.instagram.com/ifgfhouston/?_a=1" target="_blank" rel="noreferrer">
