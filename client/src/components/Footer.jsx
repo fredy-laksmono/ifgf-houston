@@ -7,7 +7,6 @@ const Footer = () => {
 
     let sosmedSection
     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-        console.log('mobile device detected')
         sosmedSection = <div>
             <IconButton color='inherit' href="fb://www.facebook.com/IFGFHouston" target="_blank" rel="noreferrer">
                 <FacebookIcon />
@@ -17,7 +16,6 @@ const Footer = () => {
             </IconButton>
         </div>
       } else {
-        console.log('desktop detected')
         sosmedSection = <div>
             <IconButton color='inherit' href="https://www.facebook.com/IFGFHouston" target="_blank" rel="noreferrer">
                 <FacebookIcon />
