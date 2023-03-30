@@ -10,7 +10,7 @@ const Home = () => {
   const ifgfHouston = (
     <p>
       Onsite Service <br /> Sunday - 11:00 AM to 12:30 PM <br /> 6455 Wilcrest
-      Dr, Houston, TX 77073{" "}
+      Dr, Houston, TX 77072{" "}
     </p>
   );
 
