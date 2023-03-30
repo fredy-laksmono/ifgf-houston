@@ -13,9 +13,9 @@ const Slideshow = ({ images, interval = 5000 }) => {
 
   const welcomeHomeTitle = (
 
-    <div class="absolute inset-0 flex items-center justify-center">
-    <div class="px-2 py-2 bg-gray-900 bg-opacity-25 text-white rounded-lg">
-      <h2 class="text-center font-bold text-3xl sm:text-5xl md:text-7xl lg:text-9xl">WELCOME HOME</h2>
+    <div className="absolute inset-0 flex items-center justify-center">
+    <div className="px-2 py-2 bg-gray-900 bg-opacity-25 text-white rounded-lg">
+      <h2 className="text-center font-bold text-3xl sm:text-5xl md:text-7xl lg:text-9xl">WELCOME HOME</h2>
     </div>
   </div>
   )
@@ -23,9 +23,8 @@ const Slideshow = ({ images, interval = 5000 }) => {
   return (
     <div className="relative h-48 overflow-hidden sm:h-72 md:h-96 lg:h-screen">
       {images.map((image, index) => (
-        <div>
-            <img
-                key={index}
+        <div key={index}>           
+            <img              
                 src={image}
                 alt={`Slideshow image ${index}`}
                 className={`absolute top-0 left-0 w-full h-48 sm:h-72 md:h-96 lg:h-screen transition-opacity duration-1000 ${

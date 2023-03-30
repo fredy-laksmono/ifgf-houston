@@ -3,7 +3,7 @@ const InfoPanel = ({imagePath, imageAlt, title, body, style}) => {
     <div className=" py-3 grid place-items-center gap-2 text-white ">
         {imagePath ? <img className="  bg-cover bg-center p-8 box-border" src={imagePath} alt={imageAlt}/> : null}
         <h2 className=" text-2xl font-bold">{title}</h2>
-        <p>{body}</p>
+        {body}
         
     </div>
     )

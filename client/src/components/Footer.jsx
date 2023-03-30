@@ -4,6 +4,30 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 
 
 const Footer = () => {
+
+    let sosmedSection
+    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+        console.log('mobile device detected')
+        sosmedSection = <div>
+            <IconButton color='inherit' href="fb://www.facebook.com/IFGFHouston" target="_blank" rel="noreferrer">
+                <FacebookIcon />
+            </IconButton>
+            <IconButton color='inherit' href="https://www.instagram.com/ifgfhouston/?_a=1" target="_blank" rel="noreferrer">
+                <InstagramIcon />
+            </IconButton>
+        </div>
+      } else {
+        console.log('desktop detected')
+        sosmedSection = <div>
+            <IconButton color='inherit' href="https://www.facebook.com/IFGFHouston" target="_blank" rel="noreferrer">
+                <FacebookIcon />
+            </IconButton>
+            <IconButton color='inherit' href="https://www.instagram.com/ifgfhouston/?_a=1" target="_blank" rel="noreferrer">
+                <InstagramIcon />
+            </IconButton>
+        </div>
+      }
+
     return (
         <div>
             <footer className=" flex flex-col lg:hidden">
@@ -21,12 +45,7 @@ const Footer = () => {
                 </div>
                 
                 <div className=" pt-4 self-center">
-                    <IconButton color='inherit' href="https://www.facebook.com/IFGFHouston" target="_blank" rel="noreferrer">
-                        <FacebookIcon />
-                    </IconButton>
-                    <IconButton color='inherit' href="https://www.instagram.com/ifgfhouston/?_a=1" target="_blank" rel="noreferrer">
-                        <InstagramIcon />
-                    </IconButton>
+                    {sosmedSection}
                 </div>
                 
                 <div className=" pb-6 pt-4 font-thin text-base self-center">
@@ -50,12 +69,7 @@ const Footer = () => {
                     ©2023 by IFGF Houston
                 </div>
                 <div className=" row-start-4 col-start-2 col-span-2 self-center">
-                    <IconButton color='inherit' href="https://www.facebook.com/IFGFHouston" target="_blank" rel="noreferrer">
-                        <FacebookIcon />
-                    </IconButton>
-                    <IconButton color='inherit' href="https://www.instagram.com/ifgfhouston/?_a=1" target="_blank" rel="noreferrer">
-                        <InstagramIcon />
-                    </IconButton>
+                    {sosmedSection}
                 </div>
                 
                 <p></p>
