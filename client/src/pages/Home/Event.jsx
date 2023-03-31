@@ -16,7 +16,7 @@ const Event = () => {
             </p>
     )
     return (
-        <div className=" bg-black text-white ">
+        <div className=" bg-black text-white pb-4 ">
             <h1 className=" font-bold text-4xl pt-8">UPCOMING SPECIAL EVENTS</h1>
             <InfoPanel imagePath={gfesImage} imageAlt="Good Friday and Easter Sunday Service Promo Image" title="Good Friday & Easter Sunday Service" body={gfes} />
             <InfoPanel imagePath={womenMinistryImage} imageAlt="IFGF Women's Ministry Promo Image" title="IFGF Women's Ministry" body={womenMinistry} />
