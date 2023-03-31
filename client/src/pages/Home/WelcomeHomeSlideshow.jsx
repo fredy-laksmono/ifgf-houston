@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-const Slideshow = ({ images, interval = 5000 }) => {
+const WelcomeHomeSlideshow = ({ images, interval = 5000 }) => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   useEffect(() => {
@@ -39,4 +39,4 @@ const Slideshow = ({ images, interval = 5000 }) => {
   );
 };
 
-export default Slideshow;
+export default WelcomeHomeSlideshow;

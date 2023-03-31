@@ -1,9 +1,9 @@
 import "../../App.css";
 import { useEffect } from "react";
-import { useNavigate } from "react-router-dom";
 import AboutUsShort from "./AboutUsShort";
 import Slogan from "./Slogan";
 import WelcomeHome from "./WelcomeHome";
+import Event from "./Event";
 import InfoPanel from "./InfoPanel";
 import ifgfHoustonBuildingImage from "../../assets/ifgfHoustonBuilding.png";
 import careGroupImage from "../../assets/CareGroup.jpeg";
@@ -12,7 +12,6 @@ const Home = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-  const navigate = useNavigate();
 
   const handleDirection = () => {
     window.location.href =
@@ -56,6 +55,7 @@ const Home = () => {
     <div className=" grid ">
       <WelcomeHome />
       <Slogan />
+      <Event />
       <InfoPanel
         imagePath={ifgfHoustonBuildingImage}
         title="IFGF Houston"
