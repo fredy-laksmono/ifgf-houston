@@ -11,9 +11,11 @@ const Event = () => {
         </p>
     )
     const womenMinistry = (
-            <p className="bg-white text-black font-bold py-2 px-4 rounded" >
-                RSVP Coming Soon
-            </p>
+        <p className=' pt-4'>
+            <a href="https://forms.gle/oEK5NHqmxjnRATaj6" className="bg-white hover:bg-blue-500 text-black font-bold py-2 px-4 rounded" target="_blank" rel="noreferrer">
+                RSVP Here
+            </a>
+        </p>
     )
     return (
         <div className=" bg-black text-white pb-4 ">
