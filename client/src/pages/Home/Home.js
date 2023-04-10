@@ -55,7 +55,7 @@ const Home = () => {
     <div className=" grid ">
       <WelcomeHome />
       <Slogan />
-      {/* <Event /> */}
+      <Event />
       <h1 className=" font-bold text-4xl pt-8 bg-black text-white">SERVICES</h1>
       <InfoPanel
         imagePath={ifgfHoustonBuildingImage}
