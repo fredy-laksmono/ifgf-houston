@@ -41,7 +41,7 @@ const Home = () => {
 
   const iGrow = (
     <p>
-      Online Bible Study (Zoom) <br /> Wednesday - 8:00 PM to 9:00 PM
+      Online Bible Study (Zoom) <br /> Wednesday - 7:00 PM to 8:00 PM
     </p>
   );
 
@@ -56,12 +56,12 @@ const Home = () => {
       <WelcomeHome />
       <Slogan />
       <Event />
-      <h1 className=" font-bold text-4xl pt-8 bg-black text-white">SERVICES</h1>
+      <h1 className=" font-bold text-4xl pt-8 bg-white text-black">SERVICES</h1>
       <InfoPanel
         imagePath={ifgfHoustonBuildingImage}
         title="IFGF Houston"
         body={ifgfHouston}
-        // style="white"
+        style="white"
       />
       <InfoPanel
         imagePath={careGroupImage}

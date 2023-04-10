@@ -13,7 +13,7 @@ const InfoPanel = ({imagePath, imageAlt, title, body, style}) => {
             break;
         default:
             toRender = (
-                <div className=" py-3 grid place-items-center gap-2 text-white ">
+                <div className=" py-3 grid place-items-center gap-2 bg-black text-white ">
                     {imagePath ? <img className="  bg-cover bg-center p-8 box-border" src={imagePath} alt={imageAlt}/> : null}
                     <h2 className=" text-2xl font-bold">{title}</h2>
                     {body}
