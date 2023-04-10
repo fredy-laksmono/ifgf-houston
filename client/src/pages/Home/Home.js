@@ -59,12 +59,14 @@ const Home = () => {
       <h1 className=" font-bold text-4xl pt-8 bg-white text-black">SERVICES</h1>
       <InfoPanel
         imagePath={ifgfHoustonBuildingImage}
+        imageAlt="IFGF Houston Building Image"
         title="IFGF Houston"
         body={ifgfHouston}
         style="white"
       />
       <InfoPanel
         imagePath={careGroupImage}
+        imageAlt="Care Group Image"
         title="Care Group"
         body={careGroup}
       />
