@@ -5,6 +5,7 @@ import Slogan from "./Slogan";
 import WelcomeHome from "./WelcomeHome";
 import Event from "./Event";
 import InfoPanel from "./InfoPanel";
+import InstagramFeed from "./InstagramFeed";
 import ifgfHoustonBuildingImage from "../../assets/ifgfHoustonBuilding.png";
 import careGroupImage from "../../assets/CareGroup.jpeg";
 
@@ -23,7 +24,7 @@ const Home = () => {
       Onsite Service <br /> Sunday - 11:00 AM to 12:30 PM <br /> 6455 Wilcrest
       Dr, Houston, TX 77072 <br />
       <button
-        className=" bg-black text-white self-center lg:self-start text-base mt-4 py-1 rounded-3xl w-40"
+        className=" bg-white text-black self-center lg:self-start text-base mt-4 py-1 rounded-3xl w-40"
         onClick={handleDirection}
       >
         GET DIRECTION
@@ -55,14 +56,14 @@ const Home = () => {
     <div className=" grid ">
       <WelcomeHome />
       <Slogan />
-      <Event />
-      <h1 className=" font-bold text-4xl pt-8 bg-white text-black">SERVICES</h1>
+      {/* <Event /> */}
+      <h1 className=" font-bold text-4xl pt-8 bg-black text-white">SERVICES</h1>
       <InfoPanel
         imagePath={ifgfHoustonBuildingImage}
         imageAlt="IFGF Houston Building Image"
         title="IFGF Houston"
         body={ifgfHouston}
-        style="white"
+        // style="white"
       />
       <InfoPanel
         imagePath={careGroupImage}
@@ -72,6 +73,7 @@ const Home = () => {
       />
       <InfoPanel title="iGrow" body={iGrow} />
       <InfoPanel title="Prayer Meeting" body={prayerMeeting} />
+      {/* <InstagramFeed /> */}
       <AboutUsShort />
     </div>
   );
