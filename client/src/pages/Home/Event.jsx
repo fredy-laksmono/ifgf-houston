@@ -12,7 +12,7 @@ const Event = () => {
     return (
         <div className=" bg-black text-white pb-4 ">
             <h1 className=" font-bold text-4xl pt-8">UPCOMING SPECIAL EVENTS</h1>
-            <InfoPanel imagePath={bkkihEasterImage} imageAlt="BKKIH Easter Service Promo Image" title="BKKIH Easter Service" body={bkkihEasterService} />
+            <InfoPanel imagePath="https://gcdnb.pbrd.co/images/mSebwAzoWt3h.jpg?o=1" imageAlt="IFGF Houston Bazzar May 6 2023 Promo Image" title="IFGF INDO MARKET" />
         </div>
     )
 }
