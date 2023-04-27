@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import Ministry from "./pages/Ministry/Ministry";
 import AboutUs from "./pages/AboutUs/AboutUs";
 import Vision from "./pages/Vision/Vision";
+import Menu from "./pages/Home/Menu";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/aboutus" element={<AboutUs />} />
           <Route path="/ministry/*" element={<Ministry />} />
           <Route path="/vision" element={<Vision />} />
+          <Route path="/menu" element={<Menu />} />
         </Routes>
       </main>
       <Footer />
