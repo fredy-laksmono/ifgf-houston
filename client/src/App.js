@@ -18,7 +18,7 @@ function App() {
           <Route path="/aboutus" element={<AboutUs />} />
           <Route path="/ministry/*" element={<Ministry />} />
           <Route path="/vision" element={<Vision />} />
-          <Route path="/menu" element={<Menu />} />
+          <Route path="/indomarket" element={<Menu />} />
         </Routes>
       </main>
       <Footer />
