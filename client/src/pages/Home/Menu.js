@@ -1,6 +1,10 @@
 import PhotoGallery from "../../components/PhotoGallery";
+import { useEffect } from "react";
 
 const Menu = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const imageList = [
     "https://gcdnb.pbrd.co/images/mSebwAzoWt3h.jpg?o=1",
     "https://gcdnb.pbrd.co/images/n3aKELFTpWP0.jpg?o=1",

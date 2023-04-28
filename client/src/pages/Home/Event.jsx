@@ -14,7 +14,7 @@ const Event = () => {
         //         RSVP Here
         //     </a>
         // </p>
-        <button className=" text-lg bg-white hover:bg-blue-500 text-black font-bold py-2 px-4 rounded" onClick={handleClick}>View Menu</button>
+        <button className=" text-lg bg-white hover:bg-blue-500 text-black font-bold py-2 px-4 self-center lg:self-start lg:mt-0 rounded-3xl w-32" onClick={handleClick}>View Menu</button>
     )
     return (
         <div className=" bg-black text-white pb-4 ">
