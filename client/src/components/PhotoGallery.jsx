@@ -20,7 +20,7 @@ const PhotoGallery = ({ images }) => {
             key={index}
             src={image}
             alt=""
-            className="cursor-pointer object-cover px-6 lg:px-0 pt-6 h-full w-full"
+            className="cursor-pointer object-fill px-6 lg:px-0 pt-6 h-full w-full lg:h-60 lg:w-60"
             onClick={() => handleImageClick(index)}
           />
         ))}
