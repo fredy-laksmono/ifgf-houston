@@ -24,7 +24,7 @@ const Home = () => {
       Onsite Service <br /> Sunday - 11:00 AM to 12:30 PM <br /> 6455 Wilcrest
       Dr, Houston, TX 77072 <br />
       <button
-        className=" bg-white text-black self-center lg:self-start text-base mt-4 py-1 rounded-3xl w-40"
+        className=" bg-black text-white hover:bg-blue-500 self-center lg:self-start text-base mt-4 py-1 rounded-3xl w-40"
         onClick={handleDirection}
       >
         GET DIRECTION

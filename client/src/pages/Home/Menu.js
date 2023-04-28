@@ -35,7 +35,8 @@ const Menu = () => {
     "https://lihat360panos.s3.amazonaws.com/ifgfindomarket/WhatsApp+Image+2023-04-22+at+3.52.33+PM+(3).jpeg",
     "https://lihat360panos.s3.amazonaws.com/ifgfindomarket/WhatsApp+Image+2023-04-22+at+3.52.33+PM+(4).jpeg",
     "https://lihat360panos.s3.amazonaws.com/ifgfindomarket/WhatsApp+Image+2023-04-22+at+3.52.33+PM+(5).jpeg",
-    "https://lihat360panos.s3.amazonaws.com/ifgfindomarket/WhatsApp+Image+2023-04-22+at+3.52.33+PM+(6).jpeg"
+    "https://lihat360panos.s3.amazonaws.com/ifgfindomarket/WhatsApp+Image+2023-04-22+at+3.52.33+PM+(6).jpeg",
+    "https://lihat360panos.s3.amazonaws.com/ifgfindomarket/WhatsApp+Image+2023-04-28+at+8.33.13+AM.jpeg"
   ];
   const ToRender = (
     <div className="menu">
