@@ -10,12 +10,20 @@ const Event = () => {
     // State to manage the selected language
     const [language, setLanguage] = useState('English');
 
-    const [page, setPage] = useState(1);
+
+    const getPageNumber = () => {
+        const startDate = new Date(new Date().getFullYear(), 0, 4); // January 4th of the current year
+        const currentDate = new Date();
+        const differenceInTime = currentDate - startDate;
+        const differenceInDays = Math.ceil(differenceInTime / (1000 * 3600 * 24));
+        return differenceInDays > 21 ? 1: differenceInDays + 6; // Ensure page number starts from 7
+      };
+    const [page, setPage] = useState(getPageNumber());
   const [pages, setPages] = useState(null);
 
   const onDocumentComplete = (pages) => {
     setPages(pages);
-    setPage(1);
+    setPage(getPageNumber());
   };
 
   const handlePrevious = () => {
@@ -52,7 +60,8 @@ const Event = () => {
         navigate('/indomarket');
       };
 
-
+      
+    
 
     // const indoMarket = (
     //     // <p className=' pt-4'>
@@ -71,7 +80,7 @@ const Event = () => {
         <option value="Indonesian">Indonesian</option>
       </select>
       
-      <div className="flex justify-center items-center h-screen">
+      <div className="flex justify-center items-center pt-3">
       <PDF
         file={pdfFiles[language]}
         onDocumentComplete={onDocumentComplete}
