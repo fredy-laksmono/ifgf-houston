@@ -1,9 +1,9 @@
 import IFGFMain from "../../assets/Main.jpeg";
 import WelcomeHomeSlideshow from "./WelcomeHomeSlideshow";
-import AliveInCharacter from "../../assets/AliveInCharacter.png";
+import CurrentTheme from "../../assets/aliveInCalling.png";
 
 const WelcomeHome = () => {
-    const images = [IFGFMain, AliveInCharacter]
+    const images = [IFGFMain, CurrentTheme]
     return (
         <WelcomeHomeSlideshow images={images} />
     )
